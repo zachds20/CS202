@@ -1,0 +1,29 @@
+/*
+Stylesheet for CS202
+*version:1.0
+*last modified: 4.2.2021
+*author: Zach Schmidt
+*email: zachds20@gmail.com
+*website: lesson 2
+*/
+/* imported CSS */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/* style rule - selector{declaration;} */
+/* declaration - {propertyname:value} */
+/* css variables */
+
+:root{
+    --main-color: #05a081;
+    --font-family: 'Nunito';
+    --primary-color: red;
+}
+
+body{
+    background-color: lightblue;
+    /* font-family: var(--font-family); */
+}
+h3{
+    color: var(--main-color) !important;
+}
+/* important rule !important*/
